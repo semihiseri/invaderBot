@@ -1,0 +1,9 @@
+! - 5V 3A SMPS for RPi Zero
+ - Arduino Micro/Mini/Nano whatever
+ - 3 cell LiPo Support
+ - Main power switch (two, for RPi and Motors)-latching?
+ - Buzzer?
+ - Motor Driver (x2)
+ - On-off button
+ - Indicator LEDs
+ - Expansion ports for the rest of the pins.
