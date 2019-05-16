@@ -1,7 +1,7 @@
 import Draft
 
 def generateTrack():
-    linklen=15
+    linklen=20 #15
 
     """lines = [4,3,3,4]
     inx = 4
@@ -14,8 +14,9 @@ def generateTrack():
     """lines = [6,4,4,4,4,6]
     inx = 6
     iny = 5"""
-    lines = [8,7,7,8]
-    inx = 8
+    
+    lines = [6,5,5,6]
+    inx = 6
     iny = 3
     
     linkId = 0
