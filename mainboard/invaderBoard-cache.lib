@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# invaderBoard-rescue_CONN_01X02
+# invaderBoard-rescue_CONN_01X02-invaderBoard-rescue
 #
-DEF invaderBoard-rescue_CONN_01X02 P 0 40 Y N 1 F N
+DEF invaderBoard-rescue_CONN_01X02-invaderBoard-rescue P 0 40 Y N 1 F N
 F0 "P" 0 150 50 H V C CNN
-F1 "invaderBoard-rescue_CONN_01X02" 100 0 50 V V C CNN
+F1 "invaderBoard-rescue_CONN_01X02-invaderBoard-rescue" 100 0 50 V V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -23,11 +23,11 @@ X P2 2 -200 -50 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# invaderBoard-rescue_CONN_01X03
+# invaderBoard-rescue_CONN_01X03-invaderBoard-rescue
 #
-DEF invaderBoard-rescue_CONN_01X03 P 0 40 Y N 1 F N
+DEF invaderBoard-rescue_CONN_01X03-invaderBoard-rescue P 0 40 Y N 1 F N
 F0 "P" 0 200 50 H V C CNN
-F1 "invaderBoard-rescue_CONN_01X03" 100 0 50 V V C CNN
+F1 "invaderBoard-rescue_CONN_01X03-invaderBoard-rescue" 100 0 50 V V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -47,11 +47,11 @@ X P3 3 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# invaderBoard-rescue_IRF540N
+# invaderBoard-rescue_IRF540N-invaderBoard-rescue
 #
-DEF invaderBoard-rescue_IRF540N Q 0 0 Y Y 1 F N
+DEF invaderBoard-rescue_IRF540N-invaderBoard-rescue Q 0 0 Y Y 1 F N
 F0 "Q" 250 75 50 H V L CNN
-F1 "invaderBoard-rescue_IRF540N" 250 0 50 H V L CNN
+F1 "invaderBoard-rescue_IRF540N-invaderBoard-rescue" 250 0 50 H V L CNN
 F2 "TO-220" 250 -75 50 H V L CIN
 F3 "" 0 0 50 H V L CNN
 $FPLIST

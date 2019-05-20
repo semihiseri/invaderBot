@@ -1,34 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-EELAYER 25 0
+EESchema Schematic File Version 4
+LIBS:invaderBoard-cache
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -43,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L CONN_01X02 P?
+L invaderBoard-rescue:CONN_01X02 P?
 U 1 1 5CC6A607
 P 2300 2125
 F 0 "P?" H 2300 2275 50  0000 C CNN
@@ -54,7 +26,7 @@ F 3 "" H 2300 2125 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X03 P?
+L invaderBoard-rescue:CONN_01X03 P?
 U 1 1 5CC6A69C
 P 2275 2875
 F 0 "P?" H 2275 3075 50  0000 C CNN
@@ -65,7 +37,7 @@ F 3 "" H 2275 2875 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IRF540N Q?
+L invaderBoard-rescue:IRF540N Q?
 U 1 1 5CC6A70B
 P 4700 2200
 F 0 "Q?" H 4950 2275 50  0000 L CNN
@@ -76,7 +48,7 @@ F 3 "" H 4700 2200 50  0000 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IRF540N Q?
+L invaderBoard-rescue:IRF540N Q?
 U 1 1 5CC6A75C
 P 5900 2200
 F 0 "Q?" H 6150 2275 50  0000 L CNN

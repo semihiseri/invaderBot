@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L invaderBoard-rescue:CONN_01X02 P?
+L invaderBoard-rescue:CONN_01X02-invaderBoard-rescue P?
 U 1 1 5CC6A607
 P 2300 2125
 F 0 "P?" H 2300 2275 50  0000 C CNN
@@ -26,7 +26,7 @@ F 3 "" H 2300 2125 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L invaderBoard-rescue:CONN_01X03 P?
+L invaderBoard-rescue:CONN_01X03-invaderBoard-rescue P?
 U 1 1 5CC6A69C
 P 2275 2875
 F 0 "P?" H 2275 3075 50  0000 C CNN
@@ -37,7 +37,7 @@ F 3 "" H 2275 2875 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L invaderBoard-rescue:IRF540N Q?
+L invaderBoard-rescue:IRF540N-invaderBoard-rescue Q?
 U 1 1 5CC6A70B
 P 4700 2200
 F 0 "Q?" H 4950 2275 50  0000 L CNN
@@ -48,7 +48,7 @@ F 3 "" H 4700 2200 50  0000 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L invaderBoard-rescue:IRF540N Q?
+L invaderBoard-rescue:IRF540N-invaderBoard-rescue Q?
 U 1 1 5CC6A75C
 P 5900 2200
 F 0 "Q?" H 6150 2275 50  0000 L CNN
@@ -58,4 +58,6 @@ F 3 "" H 5900 2200 50  0000 L CNN
 	1    5900 2200
 	1    0    0    -1  
 $EndComp
+Text Notes 4200 4100 0    50   ~ 0
+FUSE!\nLipo Master Disable (latching, so it is off by default but turns on during power-up)\nOn-off button\n\nConn for motor drivers, lipo, lipo balance output, aux. outputs\nArduino vs. esp32?\n
 $EndSCHEMATC
