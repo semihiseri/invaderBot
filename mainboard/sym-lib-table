@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name invaderBoard-rescue)(type Legacy)(uri ${KIPRJMOD}/invaderBoard-rescue.lib)(options "")(descr ""))
+  (lib (name invaderBot)(type Legacy)(uri ${KIPRJMOD}/invaderBot.lib)(options "")(descr ""))
 )
