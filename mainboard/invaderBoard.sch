@@ -15,23 +15,23 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector_Generic:Conn_01x04 J?
+L Connector_Generic:Conn_01x04 J3
 U 1 1 5D36C5B5
 P 900 1650
-F 0 "J?" H 818 1967 50  0000 C CNN
+F 0 "J3" H 818 1967 50  0000 C CNN
 F 1 "Conn_01x04" H 818 1876 50  0000 C CNN
-F 2 "" H 900 1650 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_S4B-XH-A_1x04_P2.50mm_Horizontal" H 900 1650 50  0001 C CNN
 F 3 "~" H 900 1650 50  0001 C CNN
 	1    900  1650
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J?
+L Connector_Generic:Conn_01x02 J1
 U 1 1 5D36C24A
 P 900 1050
-F 0 "J?" H 818 1267 50  0000 C CNN
+F 0 "J1" H 818 1267 50  0000 C CNN
 F 1 "Conn_01x02" H 818 1176 50  0000 C CNN
-F 2 "" H 900 1050 50  0001 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x02_P7.62mm_Drill2mm" H 900 1050 50  0001 C CNN
 F 3 "~" H 900 1050 50  0001 C CNN
 	1    900  1050
 	-1   0    0    -1  
@@ -49,12 +49,12 @@ Wire Wire Line
 Text Label 3100 950  2    50   ~ 0
 HV
 $Comp
-L Device:Polyfuse F?
+L Device:Polyfuse F1
 U 1 1 5D36E2A5
 P 1850 1150
-F 0 "F?" V 1750 1150 50  0000 C CNN
+F 0 "F1" V 1750 1150 50  0000 C CNN
 F 1 "Polyfuse" V 1950 1150 50  0000 C CNN
-F 2 "" H 1900 950 50  0001 L CNN
+F 2 "invaderBoard:PTC Fuse" H 1900 950 50  0001 L CNN
 F 3 "~" H 1850 1150 50  0001 C CNN
 	1    1850 1150
 	0    1    1    0   
@@ -62,12 +62,12 @@ $EndComp
 Wire Wire Line
 	1100 1150 1700 1150
 $Comp
-L Switch:SW_DIP_x01 SW?
+L Switch:SW_DIP_x01 SW1
 U 1 1 5D36F50D
 P 2400 1150
-F 0 "SW?" H 2400 1300 50  0000 C CNN
+F 0 "SW1" H 2400 1300 50  0000 C CNN
 F 1 "SW_DIP_x01" H 2400 1000 50  0000 C CNN
-F 2 "" H 2400 1150 50  0001 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1mm" H 2400 1150 50  0001 C CNN
 F 3 "~" H 2400 1150 50  0001 C CNN
 	1    2400 1150
 	1    0    0    -1  
@@ -98,56 +98,56 @@ Wire Notes Line
 Wire Notes Line
 	3200 700  700  700 
 $Comp
-L Device:R R?
+L Device:R R3
 U 1 1 5D373F6F
 P 1500 2300
-F 0 "R?" V 1400 2300 50  0000 C CNN
+F 0 "R3" V 1400 2300 50  0000 C CNN
 F 1 "R" V 1500 2300 50  0000 C CNN
-F 2 "" V 1430 2300 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 1430 2300 50  0001 C CNN
 F 3 "~" H 1500 2300 50  0001 C CNN
 	1    1500 2300
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R4
 U 1 1 5D374744
 P 1500 2550
-F 0 "R?" V 1400 2550 50  0000 C CNN
+F 0 "R4" V 1400 2550 50  0000 C CNN
 F 1 "R" V 1500 2550 50  0000 C CNN
-F 2 "" V 1430 2550 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 1430 2550 50  0001 C CNN
 F 3 "~" H 1500 2550 50  0001 C CNN
 	1    1500 2550
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R5
 U 1 1 5D374AD3
 P 1750 2800
-F 0 "R?" H 1820 2846 50  0000 L CNN
+F 0 "R5" H 1820 2846 50  0000 L CNN
 F 1 "R" H 1820 2755 50  0000 L CNN
-F 2 "" V 1680 2800 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 1680 2800 50  0001 C CNN
 F 3 "~" H 1750 2800 50  0001 C CNN
 	1    1750 2800
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R6
 U 1 1 5D374D7A
 P 1500 3250
-F 0 "R?" V 1400 3250 50  0000 C CNN
+F 0 "R6" V 1400 3250 50  0000 C CNN
 F 1 "R" V 1500 3250 50  0000 C CNN
-F 2 "" V 1430 3250 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 1430 3250 50  0001 C CNN
 F 3 "~" H 1500 3250 50  0001 C CNN
 	1    1500 3250
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R7
 U 1 1 5D375450
 P 1750 3500
-F 0 "R?" H 1820 3546 50  0000 L CNN
+F 0 "R7" H 1820 3546 50  0000 L CNN
 F 1 "R" H 1820 3455 50  0000 L CNN
-F 2 "" V 1680 3500 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 1680 3500 50  0001 C CNN
 F 3 "~" H 1750 3500 50  0001 C CNN
 	1    1750 3500
 	1    0    0    -1  
@@ -203,10 +203,10 @@ Wire Notes Line
 Wire Notes Line
 	700  3900 700  2100
 $Comp
-L Transistor_FET:IRF540N Q?
+L Transistor_FET:IRF540N Q1
 U 1 1 5D37C4BF
 P 5000 1450
-F 0 "Q?" H 5206 1496 50  0000 L CNN
+F 0 "Q1" H 5206 1496 50  0000 L CNN
 F 1 "IRFZ44" H 5206 1405 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 5250 1375 50  0001 L CIN
 F 3 "http://www.irf.com/product-info/datasheets/data/irf540n.pdf" H 5000 1450 50  0001 L CNN
@@ -214,45 +214,45 @@ F 3 "http://www.irf.com/product-info/datasheets/data/irf540n.pdf" H 5000 1450 50
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C1
 U 1 1 5D37D125
 P 4650 1150
-F 0 "C?" H 4765 1196 50  0000 L CNN
+F 0 "C1" H 4765 1196 50  0000 L CNN
 F 1 "C" H 4765 1105 50  0000 L CNN
-F 2 "" H 4688 1000 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm" H 4688 1000 50  0001 C CNN
 F 3 "~" H 4650 1150 50  0001 C CNN
 	1    4650 1150
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D?
+L Device:D D1
 U 1 1 5D37D91D
 P 4650 1750
-F 0 "D?" V 4604 1829 50  0000 L CNN
+F 0 "D1" V 4604 1829 50  0000 L CNN
 F 1 "D" V 4695 1829 50  0000 L CNN
-F 2 "" H 4650 1750 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4650 1750 50  0001 C CNN
 F 3 "~" H 4650 1750 50  0001 C CNN
 	1    4650 1750
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R2
 U 1 1 5D37DEA3
 P 4300 1750
-F 0 "R?" H 4370 1796 50  0000 L CNN
+F 0 "R2" H 4370 1796 50  0000 L CNN
 F 1 "R" H 4370 1705 50  0000 L CNN
-F 2 "" V 4230 1750 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 4230 1750 50  0001 C CNN
 F 3 "~" H 4300 1750 50  0001 C CNN
 	1    4300 1750
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R1
 U 1 1 5D37E0AD
 P 4000 1450
-F 0 "R?" V 3900 1450 50  0000 C CNN
+F 0 "R1" V 3900 1450 50  0000 C CNN
 F 1 "R" V 4000 1450 50  0000 C CNN
-F 2 "" V 3930 1450 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 3930 1450 50  0001 C CNN
 F 3 "~" H 4000 1450 50  0001 C CNN
 	1    4000 1450
 	0    1    1    0   
@@ -308,23 +308,23 @@ Wire Notes Line
 Wire Notes Line
 	5550 700  3350 700 
 $Comp
-L Connector_Generic:Conn_02x04_Odd_Even J?
+L Connector_Generic:Conn_02x04_Odd_Even J4
 U 1 1 5D394335
 P 3400 2800
-F 0 "J?" H 3450 3117 50  0000 C CNN
+F 0 "J4" H 3450 3117 50  0000 C CNN
 F 1 "Conn_02x04_Odd_Even" H 3450 3026 50  0000 C CNN
-F 2 "" H 3400 2800 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 3400 2800 50  0001 C CNN
 F 3 "~" H 3400 2800 50  0001 C CNN
 	1    3400 2800
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x04_Odd_Even J?
+L Connector_Generic:Conn_02x04_Odd_Even J5
 U 1 1 5D395033
 P 3400 3550
-F 0 "J?" H 3450 3867 50  0000 C CNN
+F 0 "J5" H 3450 3867 50  0000 C CNN
 F 1 "Conn_02x04_Odd_Even" H 3450 3776 50  0000 C CNN
-F 2 "" H 3400 3550 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 3400 3550 50  0001 C CNN
 F 3 "~" H 3400 3550 50  0001 C CNN
 	1    3400 3550
 	1    0    0    -1  
@@ -390,12 +390,12 @@ Wire Notes Line
 Wire Notes Line
 	2650 3900 2650 2400
 $Comp
-L bluerSaab:LM2596 U?
+L bluerSaab:LM2596 U1
 U 1 1 5D36BBF8
 P 6600 1200
-F 0 "U?" H 6600 1625 50  0000 C CNN
+F 0 "U1" H 6600 1625 50  0000 C CNN
 F 1 "LM2596" H 6600 1534 50  0000 C CNN
-F 2 "" H 6600 1500 50  0001 C CNN
+F 2 "bluerSaab:LM2596" H 6600 1500 50  0001 C CNN
 F 3 "" H 6600 1500 50  0001 C CNN
 	1    6600 1200
 	1    0    0    -1  
@@ -445,12 +445,12 @@ GND
 Text Label 7650 1300 2    50   ~ 0
 5V
 $Comp
-L bluerSaab:LM2596 U?
+L bluerSaab:LM2596 U2
 U 1 1 5D3758E1
 P 6600 2000
-F 0 "U?" H 6600 2425 50  0000 C CNN
+F 0 "U2" H 6600 2425 50  0000 C CNN
 F 1 "LM2596" H 6600 2334 50  0000 C CNN
-F 2 "" H 6600 2300 50  0001 C CNN
+F 2 "bluerSaab:LM2596" H 6600 2300 50  0001 C CNN
 F 3 "" H 6600 2300 50  0001 C CNN
 	1    6600 2000
 	1    0    0    -1  
@@ -508,12 +508,12 @@ Wire Notes Line
 Wire Notes Line
 	5700 2350 5700 700 
 $Comp
-L Connector:USB_A J?
+L Connector:USB_A J2
 U 1 1 5D38E73F
 P 8600 1150
-F 0 "J?" H 8370 1139 50  0000 R CNN
+F 0 "J2" H 8370 1139 50  0000 R CNN
 F 1 "USB_A" H 8370 1048 50  0000 R CNN
-F 2 "" H 8750 1100 50  0001 C CNN
+F 2 "invaderBoard:USB_A" H 8750 1100 50  0001 C CNN
 F 3 " ~" H 8750 1100 50  0001 C CNN
 	1    8600 1150
 	-1   0    0    -1  
@@ -544,12 +544,12 @@ Wire Notes Line
 Wire Notes Line
 	9150 700  7900 700 
 $Comp
-L invaderBot:ArduinoMicro U?
+L invaderBot:ArduinoMicro U3
 U 1 1 5D3A4625
 P 5450 3650
-F 0 "U?" H 5450 4675 50  0000 C CNN
+F 0 "U3" H 5450 4675 50  0000 C CNN
 F 1 "ArduinoMicro" H 5450 4584 50  0000 C CNN
-F 2 "" H 5350 4550 50  0001 C CNN
+F 2 "invaderBoard:Arduino Micro" H 5350 4550 50  0001 C CNN
 F 3 "" H 5350 4550 50  0001 C CNN
 	1    5450 3650
 	1    0    0    -1  
@@ -675,53 +675,400 @@ Wire Notes Line
 Wire Notes Line
 	4400 2500 4400 4600
 $Comp
-L Connector_Generic:Conn_01x04 J?
+L Connector_Generic:Conn_01x04 J6
 U 1 1 5D40AD84
-P 1950 5000
-F 0 "J?" H 1868 5317 50  0000 C CNN
-F 1 "Conn_01x04" H 1868 5226 50  0000 C CNN
-F 2 "" H 1950 5000 50  0001 C CNN
-F 3 "~" H 1950 5000 50  0001 C CNN
-	1    1950 5000
+P 950 4500
+F 0 "J6" H 868 4817 50  0000 C CNN
+F 1 "Conn_01x04" H 868 4726 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 950 4500 50  0001 C CNN
+F 3 "~" H 950 4500 50  0001 C CNN
+	1    950  4500
 	-1   0    0    -1  
 $EndComp
-Text Label 2700 4900 2    50   ~ 0
+Text Label 1700 4400 2    50   ~ 0
 HV
-Text Label 2700 5000 2    50   ~ 0
+Text Label 1700 4500 2    50   ~ 0
 GND
-Text Label 2700 5100 2    50   ~ 0
+Text Label 1700 4600 2    50   ~ 0
 AUX_POWER
-Text Label 2700 5200 2    50   ~ 0
-D
+Text Label 1700 4700 2    50   ~ 0
+USER_A3
 Wire Wire Line
-	2700 4900 2150 4900
+	1700 4400 1150 4400
 Wire Wire Line
-	2150 5000 2700 5000
+	1150 4500 1700 4500
 Wire Wire Line
-	2700 5100 2150 5100
+	1700 4600 1150 4600
 Wire Wire Line
-	2150 5200 2700 5200
+	1150 4700 1700 4700
 $Comp
-L Connector_Generic:Conn_01x03 J?
+L Connector_Generic:Conn_01x03 J7
 U 1 1 5D428499
-P 1900 5750
-F 0 "J?" H 1818 5425 50  0000 C CNN
-F 1 "Conn_01x03" H 1818 5516 50  0000 C CNN
-F 2 "" H 1900 5750 50  0001 C CNN
-F 3 "~" H 1900 5750 50  0001 C CNN
-	1    1900 5750
+P 4650 5200
+F 0 "J7" H 4568 4875 50  0000 C CNN
+F 1 "Conn_01x03" H 4568 4966 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal" H 4650 5200 50  0001 C CNN
+F 3 "~" H 4650 5200 50  0001 C CNN
+	1    4650 5200
 	-1   0    0    1   
 $EndComp
-Text Label 2550 5650 2    50   ~ 0
+Text Label 5300 5100 2    50   ~ 0
 GND
-Text Label 2550 5750 2    50   ~ 0
-DIN
-Text Label 2550 5850 2    50   ~ 0
+Text Label 5300 5200 2    50   ~ 0
+LIGHT_DIN_2
+Text Label 5300 5300 2    50   ~ 0
 5V
 Wire Wire Line
-	2550 5650 2100 5650
+	5300 5100 4850 5100
 Wire Wire Line
-	2100 5750 2550 5750
+	4850 5200 5300 5200
 Wire Wire Line
-	2100 5850 2550 5850
+	4850 5300 5300 5300
+$Comp
+L Connector_Generic:Conn_01x03 J13
+U 1 1 5D391E10
+P 4650 5800
+F 0 "J13" H 4568 5475 50  0000 C CNN
+F 1 "Conn_01x03" H 4568 5566 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal" H 4650 5800 50  0001 C CNN
+F 3 "~" H 4650 5800 50  0001 C CNN
+	1    4650 5800
+	-1   0    0    1   
+$EndComp
+Text Label 5300 5700 2    50   ~ 0
+GND
+Text Label 5300 5800 2    50   ~ 0
+LIGHT_DIN_1
+Text Label 5300 5900 2    50   ~ 0
+5V
+Wire Wire Line
+	5300 5700 4850 5700
+Wire Wire Line
+	4850 5800 5300 5800
+Wire Wire Line
+	4850 5900 5300 5900
+$Comp
+L Connector_Generic:Conn_01x04 J10
+U 1 1 5D3ADC33
+P 950 5200
+F 0 "J10" H 868 5517 50  0000 C CNN
+F 1 "Conn_01x04" H 868 5426 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 950 5200 50  0001 C CNN
+F 3 "~" H 950 5200 50  0001 C CNN
+	1    950  5200
+	-1   0    0    -1  
+$EndComp
+Text Label 1700 5100 2    50   ~ 0
+HV
+Text Label 1700 5200 2    50   ~ 0
+GND
+Text Label 1700 5300 2    50   ~ 0
+AUX_POWER
+Text Label 1700 5400 2    50   ~ 0
+USER_A4
+Wire Wire Line
+	1700 5100 1150 5100
+Wire Wire Line
+	1150 5200 1700 5200
+Wire Wire Line
+	1700 5300 1150 5300
+Wire Wire Line
+	1150 5400 1700 5400
+$Comp
+L Connector_Generic:Conn_01x04 J8
+U 1 1 5D3B80AD
+P 2150 4500
+F 0 "J8" H 2068 4817 50  0000 C CNN
+F 1 "Conn_01x04" H 2068 4726 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 2150 4500 50  0001 C CNN
+F 3 "~" H 2150 4500 50  0001 C CNN
+	1    2150 4500
+	-1   0    0    -1  
+$EndComp
+Text Label 2900 4400 2    50   ~ 0
+HV
+Text Label 2900 4500 2    50   ~ 0
+GND
+Text Label 2900 4600 2    50   ~ 0
+AUX_POWER
+Text Label 2900 4700 2    50   ~ 0
+USER_A5
+Wire Wire Line
+	2900 4400 2350 4400
+Wire Wire Line
+	2350 4500 2900 4500
+Wire Wire Line
+	2900 4600 2350 4600
+Wire Wire Line
+	2350 4700 2900 4700
+$Comp
+L Connector_Generic:Conn_01x04 J11
+U 1 1 5D3B80BF
+P 2150 5200
+F 0 "J11" H 2068 5517 50  0000 C CNN
+F 1 "Conn_01x04" H 2068 5426 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 2150 5200 50  0001 C CNN
+F 3 "~" H 2150 5200 50  0001 C CNN
+	1    2150 5200
+	-1   0    0    -1  
+$EndComp
+Text Label 2900 5100 2    50   ~ 0
+HV
+Text Label 2900 5200 2    50   ~ 0
+GND
+Text Label 2900 5300 2    50   ~ 0
+AUX_POWER
+Text Label 2900 5400 2    50   ~ 0
+USER_MISO
+Wire Wire Line
+	2900 5100 2350 5100
+Wire Wire Line
+	2350 5200 2900 5200
+Wire Wire Line
+	2900 5300 2350 5300
+Wire Wire Line
+	2350 5400 2900 5400
+$Comp
+L Connector_Generic:Conn_01x04 J9
+U 1 1 5D3C0F92
+P 3350 4500
+F 0 "J9" H 3268 4817 50  0000 C CNN
+F 1 "Conn_01x04" H 3268 4726 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 3350 4500 50  0001 C CNN
+F 3 "~" H 3350 4500 50  0001 C CNN
+	1    3350 4500
+	-1   0    0    -1  
+$EndComp
+Text Label 4100 4400 2    50   ~ 0
+HV
+Text Label 4100 4500 2    50   ~ 0
+GND
+Text Label 4100 4600 2    50   ~ 0
+AUX_POWER
+Text Label 4100 4700 2    50   ~ 0
+USER_SCK
+Wire Wire Line
+	4100 4400 3550 4400
+Wire Wire Line
+	3550 4500 4100 4500
+Wire Wire Line
+	4100 4600 3550 4600
+Wire Wire Line
+	3550 4700 4100 4700
+$Comp
+L Connector_Generic:Conn_01x04 J12
+U 1 1 5D3C0FA4
+P 3350 5200
+F 0 "J12" H 3268 5517 50  0000 C CNN
+F 1 "Conn_01x04" H 3268 5426 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 3350 5200 50  0001 C CNN
+F 3 "~" H 3350 5200 50  0001 C CNN
+	1    3350 5200
+	-1   0    0    -1  
+$EndComp
+Text Label 4100 5100 2    50   ~ 0
+HV
+Text Label 4100 5200 2    50   ~ 0
+GND
+Text Label 4100 5300 2    50   ~ 0
+AUX_POWER
+Text Label 4100 5400 2    50   ~ 0
+USER_MOSI
+Wire Wire Line
+	4100 5100 3550 5100
+Wire Wire Line
+	3550 5200 4100 5200
+Wire Wire Line
+	4100 5300 3550 5300
+Wire Wire Line
+	3550 5400 4100 5400
+$Comp
+L Connector_Generic:Conn_01x04 J14
+U 1 1 5D3C0FB6
+P 950 5900
+F 0 "J14" H 868 6217 50  0000 C CNN
+F 1 "Conn_01x04" H 868 6126 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 950 5900 50  0001 C CNN
+F 3 "~" H 950 5900 50  0001 C CNN
+	1    950  5900
+	-1   0    0    -1  
+$EndComp
+Text Label 1700 5800 2    50   ~ 0
+HV
+Text Label 1700 5900 2    50   ~ 0
+GND
+Text Label 1700 6000 2    50   ~ 0
+AUX_POWER
+Text Label 1700 6100 2    50   ~ 0
+USER_SS
+Wire Wire Line
+	1700 5800 1150 5800
+Wire Wire Line
+	1150 5900 1700 5900
+Wire Wire Line
+	1700 6000 1150 6000
+Wire Wire Line
+	1150 6100 1700 6100
+$Comp
+L Connector_Generic:Conn_01x04 J17
+U 1 1 5D3C0FC8
+P 950 6600
+F 0 "J17" H 868 6917 50  0000 C CNN
+F 1 "Conn_01x04" H 868 6826 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 950 6600 50  0001 C CNN
+F 3 "~" H 950 6600 50  0001 C CNN
+	1    950  6600
+	-1   0    0    -1  
+$EndComp
+Text Label 1700 6500 2    50   ~ 0
+HV
+Text Label 1700 6600 2    50   ~ 0
+GND
+Text Label 1700 6700 2    50   ~ 0
+AUX_POWER
+Wire Wire Line
+	1700 6500 1150 6500
+Wire Wire Line
+	1150 6600 1700 6600
+Wire Wire Line
+	1700 6700 1150 6700
+Wire Wire Line
+	1150 6800 1700 6800
+$Comp
+L Connector_Generic:Conn_01x04 J15
+U 1 1 5D3D24B0
+P 2150 5900
+F 0 "J15" H 2068 6217 50  0000 C CNN
+F 1 "Conn_01x04" H 2068 6126 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 2150 5900 50  0001 C CNN
+F 3 "~" H 2150 5900 50  0001 C CNN
+	1    2150 5900
+	-1   0    0    -1  
+$EndComp
+Text Label 2900 5800 2    50   ~ 0
+HV
+Text Label 2900 5900 2    50   ~ 0
+GND
+Text Label 2900 6000 2    50   ~ 0
+AUX_POWER
+Wire Wire Line
+	2900 5800 2350 5800
+Wire Wire Line
+	2350 5900 2900 5900
+Wire Wire Line
+	2900 6000 2350 6000
+Wire Wire Line
+	2350 6100 2900 6100
+$Comp
+L Connector_Generic:Conn_01x04 J18
+U 1 1 5D3D24C2
+P 2150 6600
+F 0 "J18" H 2068 6917 50  0000 C CNN
+F 1 "Conn_01x04" H 2068 6826 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 2150 6600 50  0001 C CNN
+F 3 "~" H 2150 6600 50  0001 C CNN
+	1    2150 6600
+	-1   0    0    -1  
+$EndComp
+Text Label 2900 6500 2    50   ~ 0
+HV
+Text Label 2900 6600 2    50   ~ 0
+GND
+Text Label 2900 6700 2    50   ~ 0
+AUX_POWER
+Text Label 2900 6800 2    50   ~ 0
+USER_SDA
+Wire Wire Line
+	2900 6500 2350 6500
+Wire Wire Line
+	2350 6600 2900 6600
+Wire Wire Line
+	2900 6700 2350 6700
+Wire Wire Line
+	2350 6800 2900 6800
+$Comp
+L Connector_Generic:Conn_01x04 J16
+U 1 1 5D3E3D79
+P 3350 5900
+F 0 "J16" H 3268 6217 50  0000 C CNN
+F 1 "Conn_01x04" H 3268 6126 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 3350 5900 50  0001 C CNN
+F 3 "~" H 3350 5900 50  0001 C CNN
+	1    3350 5900
+	-1   0    0    -1  
+$EndComp
+Text Label 4100 5800 2    50   ~ 0
+HV
+Text Label 4100 5900 2    50   ~ 0
+GND
+Text Label 4100 6000 2    50   ~ 0
+AUX_POWER
+Text Label 4100 6100 2    50   ~ 0
+USER_SCL
+Wire Wire Line
+	4100 5800 3550 5800
+Wire Wire Line
+	3550 5900 4100 5900
+Wire Wire Line
+	4100 6000 3550 6000
+Wire Wire Line
+	3550 6100 4100 6100
+Text Label 1700 6800 2    50   ~ 0
+USER_TX
+Text Label 2900 6100 2    50   ~ 0
+USER_RX
+Wire Notes Line
+	700  4050 4250 4050
+Wire Notes Line
+	4250 4050 4250 7000
+Wire Notes Line
+	4250 7000 700  7000
+Wire Notes Line
+	700  7000 700  4050
+Wire Notes Line
+	4400 4750 5450 4750
+Wire Notes Line
+	5450 4750 5450 6050
+Wire Notes Line
+	5450 6050 4400 6050
+Wire Notes Line
+	4400 6050 4400 4750
+$Comp
+L Connector_Generic:Conn_01x02 J19
+U 1 1 5D53CA1D
+P 10600 2500
+F 0 "J19" H 10680 2492 50  0000 L CNN
+F 1 "Conn_01x02" H 10680 2401 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1mm" H 10600 2500 50  0001 C CNN
+F 3 "~" H 10600 2500 50  0001 C CNN
+	1    10600 2500
+	1    0    0    -1  
+$EndComp
+Text Label 9900 2500 0    50   ~ 0
+HV
+Text Label 9900 2600 0    50   ~ 0
+GND
+Wire Wire Line
+	9900 2500 10400 2500
+Wire Wire Line
+	10400 2600 9900 2600
+$Comp
+L Connector_Generic:Conn_01x02 J20
+U 1 1 5D554BB3
+P 10600 2800
+F 0 "J20" H 10680 2792 50  0000 L CNN
+F 1 "Conn_01x02" H 10680 2701 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1mm" H 10600 2800 50  0001 C CNN
+F 3 "~" H 10600 2800 50  0001 C CNN
+	1    10600 2800
+	1    0    0    -1  
+$EndComp
+Text Label 9900 2800 0    50   ~ 0
+HV
+Text Label 9900 2900 0    50   ~ 0
+GND
+Wire Wire Line
+	9900 2800 10400 2800
+Wire Wire Line
+	10400 2900 9900 2900
 $EndSCHEMATC
