@@ -103,7 +103,7 @@ U 1 1 5D373F6F
 P 1500 2300
 F 0 "R3" V 1400 2300 50  0000 C CNN
 F 1 "R" V 1500 2300 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 1430 2300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1430 2300 50  0001 C CNN
 F 3 "~" H 1500 2300 50  0001 C CNN
 	1    1500 2300
 	0    1    1    0   
@@ -114,7 +114,7 @@ U 1 1 5D374744
 P 1500 2550
 F 0 "R4" V 1400 2550 50  0000 C CNN
 F 1 "R" V 1500 2550 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 1430 2550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1430 2550 50  0001 C CNN
 F 3 "~" H 1500 2550 50  0001 C CNN
 	1    1500 2550
 	0    1    1    0   
@@ -125,7 +125,7 @@ U 1 1 5D374AD3
 P 1750 2800
 F 0 "R5" H 1820 2846 50  0000 L CNN
 F 1 "R" H 1820 2755 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 1680 2800 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1680 2800 50  0001 C CNN
 F 3 "~" H 1750 2800 50  0001 C CNN
 	1    1750 2800
 	1    0    0    -1  
@@ -136,7 +136,7 @@ U 1 1 5D374D7A
 P 1500 3250
 F 0 "R6" V 1400 3250 50  0000 C CNN
 F 1 "R" V 1500 3250 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 1430 3250 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1430 3250 50  0001 C CNN
 F 3 "~" H 1500 3250 50  0001 C CNN
 	1    1500 3250
 	0    1    1    0   
@@ -147,7 +147,7 @@ U 1 1 5D375450
 P 1750 3500
 F 0 "R7" H 1820 3546 50  0000 L CNN
 F 1 "R" H 1820 3455 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 1680 3500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1680 3500 50  0001 C CNN
 F 3 "~" H 1750 3500 50  0001 C CNN
 	1    1750 3500
 	1    0    0    -1  
@@ -444,61 +444,6 @@ Text Label 7650 1000 2    50   ~ 0
 GND
 Text Label 7650 1300 2    50   ~ 0
 5V
-$Comp
-L bluerSaab:LM2596 U2
-U 1 1 5D3758E1
-P 6600 2000
-F 0 "U2" H 6600 2425 50  0000 C CNN
-F 1 "LM2596" H 6600 2334 50  0000 C CNN
-F 2 "bluerSaab:LM2596" H 6600 2300 50  0001 C CNN
-F 3 "" H 6600 2300 50  0001 C CNN
-	1    6600 2000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6200 1900 6050 1900
-Wire Wire Line
-	6050 1900 6050 1800
-Wire Wire Line
-	6050 1800 6200 1800
-Wire Wire Line
-	6200 2100 6050 2100
-Wire Wire Line
-	6050 2100 6050 2200
-Wire Wire Line
-	6050 2200 6200 2200
-Wire Wire Line
-	7000 2200 7150 2200
-Wire Wire Line
-	7150 2200 7150 2100
-Wire Wire Line
-	7150 2100 7000 2100
-Wire Wire Line
-	7000 1900 7150 1900
-Wire Wire Line
-	7150 1900 7150 1800
-Wire Wire Line
-	7150 1800 7000 1800
-Wire Wire Line
-	6050 1800 5800 1800
-Connection ~ 6050 1800
-Wire Wire Line
-	6050 2100 5800 2100
-Connection ~ 6050 2100
-Wire Wire Line
-	7150 1800 7650 1800
-Connection ~ 7150 1800
-Wire Wire Line
-	7150 2100 7650 2100
-Connection ~ 7150 2100
-Text Label 5800 1800 0    50   ~ 0
-GND
-Text Label 5800 2100 0    50   ~ 0
-HV
-Text Label 7650 1800 2    50   ~ 0
-GND
-Text Label 7650 2100 2    50   ~ 0
-AUX_POWER
 Wire Notes Line
 	5700 700  7750 700 
 Wire Notes Line
@@ -675,12 +620,12 @@ Wire Notes Line
 Wire Notes Line
 	4400 2500 4400 4600
 $Comp
-L Connector_Generic:Conn_01x04 J6
+L Connector_Generic:Conn_01x03 J6
 U 1 1 5D40AD84
 P 950 4500
 F 0 "J6" H 868 4817 50  0000 C CNN
-F 1 "Conn_01x04" H 868 4726 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 950 4500 50  0001 C CNN
+F 1 "Conn_01x03" H 868 4726 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 950 4500 50  0001 C CNN
 F 3 "~" H 950 4500 50  0001 C CNN
 	1    950  4500
 	-1   0    0    -1  
@@ -690,24 +635,20 @@ HV
 Text Label 1700 4500 2    50   ~ 0
 GND
 Text Label 1700 4600 2    50   ~ 0
-AUX_POWER
-Text Label 1700 4700 2    50   ~ 0
 USER_A3
 Wire Wire Line
 	1700 4400 1150 4400
 Wire Wire Line
 	1150 4500 1700 4500
 Wire Wire Line
-	1700 4600 1150 4600
-Wire Wire Line
-	1150 4700 1700 4700
+	1150 4600 1700 4600
 $Comp
 L Connector_Generic:Conn_01x03 J7
 U 1 1 5D428499
 P 4650 5200
 F 0 "J7" H 4568 4875 50  0000 C CNN
 F 1 "Conn_01x03" H 4568 4966 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal" H 4650 5200 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 4650 5200 50  0001 C CNN
 F 3 "~" H 4650 5200 50  0001 C CNN
 	1    4650 5200
 	-1   0    0    1   
@@ -730,7 +671,7 @@ U 1 1 5D391E10
 P 4650 5800
 F 0 "J13" H 4568 5475 50  0000 C CNN
 F 1 "Conn_01x03" H 4568 5566 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal" H 4650 5800 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 4650 5800 50  0001 C CNN
 F 3 "~" H 4650 5800 50  0001 C CNN
 	1    4650 5800
 	-1   0    0    1   
@@ -748,12 +689,12 @@ Wire Wire Line
 Wire Wire Line
 	4850 5900 5300 5900
 $Comp
-L Connector_Generic:Conn_01x04 J10
+L Connector_Generic:Conn_01x03 J10
 U 1 1 5D3ADC33
 P 950 5200
 F 0 "J10" H 868 5517 50  0000 C CNN
-F 1 "Conn_01x04" H 868 5426 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 950 5200 50  0001 C CNN
+F 1 "Conn_01x03" H 868 5426 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 950 5200 50  0001 C CNN
 F 3 "~" H 950 5200 50  0001 C CNN
 	1    950  5200
 	-1   0    0    -1  
@@ -762,133 +703,17 @@ Text Label 1700 5100 2    50   ~ 0
 HV
 Text Label 1700 5200 2    50   ~ 0
 GND
-Text Label 1700 5300 2    50   ~ 0
-AUX_POWER
-Text Label 1700 5400 2    50   ~ 0
-USER_A4
 Wire Wire Line
 	1700 5100 1150 5100
 Wire Wire Line
 	1150 5200 1700 5200
-Wire Wire Line
-	1700 5300 1150 5300
-Wire Wire Line
-	1150 5400 1700 5400
 $Comp
-L Connector_Generic:Conn_01x04 J8
+L Connector_Generic:Conn_01x03 J8
 U 1 1 5D3B80AD
-P 2150 4500
-F 0 "J8" H 2068 4817 50  0000 C CNN
-F 1 "Conn_01x04" H 2068 4726 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 2150 4500 50  0001 C CNN
-F 3 "~" H 2150 4500 50  0001 C CNN
-	1    2150 4500
-	-1   0    0    -1  
-$EndComp
-Text Label 2900 4400 2    50   ~ 0
-HV
-Text Label 2900 4500 2    50   ~ 0
-GND
-Text Label 2900 4600 2    50   ~ 0
-AUX_POWER
-Text Label 2900 4700 2    50   ~ 0
-USER_A5
-Wire Wire Line
-	2900 4400 2350 4400
-Wire Wire Line
-	2350 4500 2900 4500
-Wire Wire Line
-	2900 4600 2350 4600
-Wire Wire Line
-	2350 4700 2900 4700
-$Comp
-L Connector_Generic:Conn_01x04 J11
-U 1 1 5D3B80BF
-P 2150 5200
-F 0 "J11" H 2068 5517 50  0000 C CNN
-F 1 "Conn_01x04" H 2068 5426 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 2150 5200 50  0001 C CNN
-F 3 "~" H 2150 5200 50  0001 C CNN
-	1    2150 5200
-	-1   0    0    -1  
-$EndComp
-Text Label 2900 5100 2    50   ~ 0
-HV
-Text Label 2900 5200 2    50   ~ 0
-GND
-Text Label 2900 5300 2    50   ~ 0
-AUX_POWER
-Text Label 2900 5400 2    50   ~ 0
-USER_MISO
-Wire Wire Line
-	2900 5100 2350 5100
-Wire Wire Line
-	2350 5200 2900 5200
-Wire Wire Line
-	2900 5300 2350 5300
-Wire Wire Line
-	2350 5400 2900 5400
-$Comp
-L Connector_Generic:Conn_01x04 J9
-U 1 1 5D3C0F92
-P 3350 4500
-F 0 "J9" H 3268 4817 50  0000 C CNN
-F 1 "Conn_01x04" H 3268 4726 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 3350 4500 50  0001 C CNN
-F 3 "~" H 3350 4500 50  0001 C CNN
-	1    3350 4500
-	-1   0    0    -1  
-$EndComp
-Text Label 4100 4400 2    50   ~ 0
-HV
-Text Label 4100 4500 2    50   ~ 0
-GND
-Text Label 4100 4600 2    50   ~ 0
-AUX_POWER
-Text Label 4100 4700 2    50   ~ 0
-USER_SCK
-Wire Wire Line
-	4100 4400 3550 4400
-Wire Wire Line
-	3550 4500 4100 4500
-Wire Wire Line
-	4100 4600 3550 4600
-Wire Wire Line
-	3550 4700 4100 4700
-$Comp
-L Connector_Generic:Conn_01x04 J12
-U 1 1 5D3C0FA4
-P 3350 5200
-F 0 "J12" H 3268 5517 50  0000 C CNN
-F 1 "Conn_01x04" H 3268 5426 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 3350 5200 50  0001 C CNN
-F 3 "~" H 3350 5200 50  0001 C CNN
-	1    3350 5200
-	-1   0    0    -1  
-$EndComp
-Text Label 4100 5100 2    50   ~ 0
-HV
-Text Label 4100 5200 2    50   ~ 0
-GND
-Text Label 4100 5300 2    50   ~ 0
-AUX_POWER
-Text Label 4100 5400 2    50   ~ 0
-USER_MOSI
-Wire Wire Line
-	4100 5100 3550 5100
-Wire Wire Line
-	3550 5200 4100 5200
-Wire Wire Line
-	4100 5300 3550 5300
-Wire Wire Line
-	3550 5400 4100 5400
-$Comp
-L Connector_Generic:Conn_01x04 J14
-U 1 1 5D3C0FB6
 P 950 5900
-F 0 "J14" H 868 6217 50  0000 C CNN
-F 1 "Conn_01x04" H 868 6126 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 950 5900 50  0001 C CNN
+F 0 "J8" H 868 6217 50  0000 C CNN
+F 1 "Conn_01x03" H 868 6126 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 950 5900 50  0001 C CNN
 F 3 "~" H 950 5900 50  0001 C CNN
 	1    950  5900
 	-1   0    0    -1  
@@ -898,129 +723,55 @@ HV
 Text Label 1700 5900 2    50   ~ 0
 GND
 Text Label 1700 6000 2    50   ~ 0
-AUX_POWER
-Text Label 1700 6100 2    50   ~ 0
-USER_SS
+USER_A5
 Wire Wire Line
 	1700 5800 1150 5800
 Wire Wire Line
 	1150 5900 1700 5900
 Wire Wire Line
-	1700 6000 1150 6000
+	1150 6000 1700 6000
+Text Label 2900 4700 2    50   ~ 0
+USER_MISO
 Wire Wire Line
-	1150 6100 1700 6100
-$Comp
-L Connector_Generic:Conn_01x04 J17
-U 1 1 5D3C0FC8
-P 950 6600
-F 0 "J17" H 868 6917 50  0000 C CNN
-F 1 "Conn_01x04" H 868 6826 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 950 6600 50  0001 C CNN
-F 3 "~" H 950 6600 50  0001 C CNN
-	1    950  6600
-	-1   0    0    -1  
-$EndComp
-Text Label 1700 6500 2    50   ~ 0
+	2350 4700 2900 4700
+Text Label 2900 4800 2    50   ~ 0
+USER_SCK
+Wire Wire Line
+	2350 4800 2900 4800
+Text Label 2900 4600 2    50   ~ 0
+USER_MOSI
+Wire Wire Line
+	2350 4600 2900 4600
+Text Label 2900 4900 2    50   ~ 0
+USER_SS
+Wire Wire Line
+	2350 4900 2900 4900
+Wire Wire Line
+	2350 5700 2900 5700
+Text Label 2900 5400 2    50   ~ 0
 HV
-Text Label 1700 6600 2    50   ~ 0
+Text Label 2900 5500 2    50   ~ 0
 GND
-Text Label 1700 6700 2    50   ~ 0
-AUX_POWER
 Wire Wire Line
-	1700 6500 1150 6500
+	2900 5400 2350 5400
 Wire Wire Line
-	1150 6600 1700 6600
+	2350 5500 2900 5500
 Wire Wire Line
-	1700 6700 1150 6700
-Wire Wire Line
-	1150 6800 1700 6800
-$Comp
-L Connector_Generic:Conn_01x04 J15
-U 1 1 5D3D24B0
-P 2150 5900
-F 0 "J15" H 2068 6217 50  0000 C CNN
-F 1 "Conn_01x04" H 2068 6126 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 2150 5900 50  0001 C CNN
-F 3 "~" H 2150 5900 50  0001 C CNN
-	1    2150 5900
-	-1   0    0    -1  
-$EndComp
-Text Label 2900 5800 2    50   ~ 0
-HV
-Text Label 2900 5900 2    50   ~ 0
-GND
-Text Label 2900 6000 2    50   ~ 0
-AUX_POWER
-Wire Wire Line
-	2900 5800 2350 5800
-Wire Wire Line
-	2350 5900 2900 5900
-Wire Wire Line
-	2900 6000 2350 6000
-Wire Wire Line
-	2350 6100 2900 6100
-$Comp
-L Connector_Generic:Conn_01x04 J18
-U 1 1 5D3D24C2
-P 2150 6600
-F 0 "J18" H 2068 6917 50  0000 C CNN
-F 1 "Conn_01x04" H 2068 6826 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 2150 6600 50  0001 C CNN
-F 3 "~" H 2150 6600 50  0001 C CNN
-	1    2150 6600
-	-1   0    0    -1  
-$EndComp
-Text Label 2900 6500 2    50   ~ 0
-HV
-Text Label 2900 6600 2    50   ~ 0
-GND
-Text Label 2900 6700 2    50   ~ 0
-AUX_POWER
-Text Label 2900 6800 2    50   ~ 0
+	2350 5600 2900 5600
+Text Label 2900 6400 2    50   ~ 0
 USER_SDA
 Wire Wire Line
-	2900 6500 2350 6500
-Wire Wire Line
-	2350 6600 2900 6600
-Wire Wire Line
-	2900 6700 2350 6700
-Wire Wire Line
-	2350 6800 2900 6800
-$Comp
-L Connector_Generic:Conn_01x04 J16
-U 1 1 5D3E3D79
-P 3350 5900
-F 0 "J16" H 3268 6217 50  0000 C CNN
-F 1 "Conn_01x04" H 3268 6126 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 3350 5900 50  0001 C CNN
-F 3 "~" H 3350 5900 50  0001 C CNN
-	1    3350 5900
-	-1   0    0    -1  
-$EndComp
-Text Label 4100 5800 2    50   ~ 0
-HV
-Text Label 4100 5900 2    50   ~ 0
-GND
-Text Label 4100 6000 2    50   ~ 0
-AUX_POWER
-Text Label 4100 6100 2    50   ~ 0
+	2350 6400 2900 6400
+Text Label 2900 6500 2    50   ~ 0
 USER_SCL
 Wire Wire Line
-	4100 5800 3550 5800
-Wire Wire Line
-	3550 5900 4100 5900
-Wire Wire Line
-	4100 6000 3550 6000
-Wire Wire Line
-	3550 6100 4100 6100
-Text Label 1700 6800 2    50   ~ 0
+	2350 6500 2900 6500
+Text Label 2900 5700 2    50   ~ 0
 USER_TX
-Text Label 2900 6100 2    50   ~ 0
+Text Label 2900 5600 2    50   ~ 0
 USER_RX
 Wire Notes Line
 	700  4050 4250 4050
-Wire Notes Line
-	4250 4050 4250 7000
 Wire Notes Line
 	4250 7000 700  7000
 Wire Notes Line
@@ -1071,4 +822,25 @@ Wire Wire Line
 	9900 2800 10400 2800
 Wire Wire Line
 	10400 2900 9900 2900
+$Comp
+L Connector_Generic:Conn_01x04 J11
+U 1 1 5D580F58
+P 2150 5500
+F 0 "J11" H 2068 5917 50  0000 C CNN
+F 1 "Conn_01x04" H 2068 5826 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 2150 5500 50  0001 C CNN
+F 3 "~" H 2150 5500 50  0001 C CNN
+	1    2150 5500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 5300 1700 5300
+Text Label 1700 5300 2    50   ~ 0
+USER_A4
+NoConn ~ 2350 4600
+NoConn ~ 2350 4700
+NoConn ~ 2350 4800
+NoConn ~ 2350 4900
+NoConn ~ 2350 6400
+NoConn ~ 2350 6500
 $EndSCHEMATC
