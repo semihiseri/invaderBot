@@ -103,7 +103,7 @@ U 1 1 5D373F6F
 P 1500 2300
 F 0 "R3" V 1400 2300 50  0000 C CNN
 F 1 "R" V 1500 2300 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 1430 2300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1430 2300 50  0001 C CNN
 F 3 "~" H 1500 2300 50  0001 C CNN
 	1    1500 2300
 	0    1    1    0   
@@ -114,7 +114,7 @@ U 1 1 5D374744
 P 1500 2550
 F 0 "R4" V 1400 2550 50  0000 C CNN
 F 1 "R" V 1500 2550 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 1430 2550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1430 2550 50  0001 C CNN
 F 3 "~" H 1500 2550 50  0001 C CNN
 	1    1500 2550
 	0    1    1    0   
@@ -125,7 +125,7 @@ U 1 1 5D374AD3
 P 1750 2800
 F 0 "R5" H 1820 2846 50  0000 L CNN
 F 1 "R" H 1820 2755 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 1680 2800 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1680 2800 50  0001 C CNN
 F 3 "~" H 1750 2800 50  0001 C CNN
 	1    1750 2800
 	1    0    0    -1  
@@ -136,7 +136,7 @@ U 1 1 5D374D7A
 P 1500 3250
 F 0 "R6" V 1400 3250 50  0000 C CNN
 F 1 "R" V 1500 3250 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 1430 3250 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1430 3250 50  0001 C CNN
 F 3 "~" H 1500 3250 50  0001 C CNN
 	1    1500 3250
 	0    1    1    0   
@@ -147,7 +147,7 @@ U 1 1 5D375450
 P 1750 3500
 F 0 "R7" H 1820 3546 50  0000 L CNN
 F 1 "R" H 1820 3455 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 1680 3500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1680 3500 50  0001 C CNN
 F 3 "~" H 1750 3500 50  0001 C CNN
 	1    1750 3500
 	1    0    0    -1  
@@ -548,17 +548,17 @@ LIGHT_DIN_2
 Text Label 6400 3450 2    50   ~ 0
 LATCH_CTL
 Text Label 6400 3350 2    50   ~ 0
-M2_DIR
-Text Label 6400 3250 2    50   ~ 0
 M1_DIR
+Text Label 6400 3250 2    50   ~ 0
+M2_DIR
 Text Label 6400 3150 2    50   ~ 0
-M2_LPWM
-Text Label 6400 3050 2    50   ~ 0
 M2_RPWM
+Text Label 6400 3050 2    50   ~ 0
+M2_LPWM
 Text Label 6400 2950 2    50   ~ 0
-M1_LPWM
-Text Label 6400 2850 2    50   ~ 0
 M1_RPWM
+Text Label 6400 2850 2    50   ~ 0
+M1_LPWM
 Wire Wire Line
 	6400 2850 5850 2850
 Wire Wire Line

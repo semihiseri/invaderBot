@@ -548,17 +548,17 @@ LIGHT_DIN_2
 Text Label 6400 3450 2    50   ~ 0
 LATCH_CTL
 Text Label 6400 3350 2    50   ~ 0
-M2_DIR
-Text Label 6400 3250 2    50   ~ 0
 M1_DIR
+Text Label 6400 3250 2    50   ~ 0
+M2_DIR
 Text Label 6400 3150 2    50   ~ 0
-M2_LPWM
-Text Label 6400 3050 2    50   ~ 0
 M2_RPWM
+Text Label 6400 3050 2    50   ~ 0
+M2_LPWM
 Text Label 6400 2950 2    50   ~ 0
-M1_LPWM
-Text Label 6400 2850 2    50   ~ 0
 M1_RPWM
+Text Label 6400 2850 2    50   ~ 0
+M1_LPWM
 Wire Wire Line
 	6400 2850 5850 2850
 Wire Wire Line
@@ -767,9 +767,9 @@ USER_SCL
 Wire Wire Line
 	2350 6500 2900 6500
 Text Label 2900 5700 2    50   ~ 0
-USER_TX
-Text Label 2900 5600 2    50   ~ 0
 USER_RX
+Text Label 2900 5600 2    50   ~ 0
+USER_TX
 Wire Notes Line
 	700  4050 4250 4050
 Wire Notes Line
