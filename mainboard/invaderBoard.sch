@@ -390,7 +390,7 @@ Wire Notes Line
 Wire Notes Line
 	2650 3900 2650 2400
 $Comp
-L bluerSaab:LM2596 U1
+L invaderBoard-rescue:LM2596-bluerSaab U1
 U 1 1 5D36BBF8
 P 6600 1200
 F 0 "U1" H 6600 1625 50  0000 C CNN
@@ -843,4 +843,37 @@ NoConn ~ 2350 4800
 NoConn ~ 2350 4900
 NoConn ~ 2350 6400
 NoConn ~ 2350 6500
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5D483510
+P 7750 3750
+F 0 "H1" H 7850 3796 50  0000 L CNN
+F 1 "MountingHole" H 7850 3705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 7750 3750 50  0001 C CNN
+F 3 "~" H 7750 3750 50  0001 C CNN
+	1    7750 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5D48397E
+P 7750 4000
+F 0 "H2" H 7850 4046 50  0000 L CNN
+F 1 "MountingHole" H 7850 3955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 7750 4000 50  0001 C CNN
+F 3 "~" H 7750 4000 50  0001 C CNN
+	1    7750 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5D483CFA
+P 7750 4250
+F 0 "H3" H 7850 4296 50  0000 L CNN
+F 1 "MountingHole" H 7850 4205 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 7750 4250 50  0001 C CNN
+F 3 "~" H 7750 4250 50  0001 C CNN
+	1    7750 4250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
