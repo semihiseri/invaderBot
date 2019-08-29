@@ -31,7 +31,7 @@ U 1 1 5D36C24A
 P 900 1050
 F 0 "J1" H 818 1267 50  0000 C CNN
 F 1 "Conn_01x02" H 818 1176 50  0000 C CNN
-F 2 "Connector_Wire:SolderWirePad_1x02_P7.62mm_Drill2mm" H 900 1050 50  0001 C CNN
+F 2 ".pretty:BiggerSolderPad" H 900 1050 50  0001 C CNN
 F 3 "~" H 900 1050 50  0001 C CNN
 	1    900  1050
 	-1   0    0    -1  
@@ -499,7 +499,6 @@ F 3 "" H 5350 4550 50  0001 C CNN
 	1    5450 3650
 	1    0    0    -1  
 $EndComp
-NoConn ~ 5050 2850
 NoConn ~ 5050 2950
 NoConn ~ 5050 3050
 NoConn ~ 5050 3750
@@ -557,10 +556,10 @@ Text Label 6400 3050 2    50   ~ 0
 M2_LPWM
 Text Label 6400 2950 2    50   ~ 0
 M1_RPWM
-Text Label 6400 2850 2    50   ~ 0
+Text Label 4525 2850 0    50   ~ 0
 M1_LPWM
 Wire Wire Line
-	6400 2850 5850 2850
+	4525 2850 5050 2850
 Wire Wire Line
 	5850 2950 6400 2950
 Wire Wire Line
@@ -876,4 +875,5 @@ F 3 "~" H 7750 4250 50  0001 C CNN
 	1    7750 4250
 	1    0    0    -1  
 $EndComp
+NoConn ~ 5850 2850
 $EndSCHEMATC
