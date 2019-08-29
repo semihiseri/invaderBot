@@ -96,7 +96,7 @@ void loop() {
         firstChar == 'C')
     {
       value = Serial.parseInt();
-      if (value > 100 || value < -100)
+      if (value > 255 || value < -255)
       {
         value = 0;
       }
