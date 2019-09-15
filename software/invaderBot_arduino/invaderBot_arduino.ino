@@ -118,7 +118,7 @@ void loop() {
   char firstChar;
   int value;
 
-  batteryTask();
+  // batteryTask();
   
   if (Serial.available())
   {
@@ -133,6 +133,10 @@ void loop() {
       {
         value = 0;
       }
+    }
+    else if(firstChar == 'G')
+    {
+      motorTask();
     }
 
     switch (firstChar)
@@ -150,10 +154,10 @@ void loop() {
         break;
     }
 
-    motorTask();
+    // motorTask();
   }
 
-  delay(100);
+  // delay(100);
 
   return;
   
