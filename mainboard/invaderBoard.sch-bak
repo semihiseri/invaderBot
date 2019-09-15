@@ -687,6 +687,17 @@ Wire Wire Line
 	4850 5800 5300 5800
 Wire Wire Line
 	4850 5900 5300 5900
+$Comp
+L Connector_Generic:Conn_01x03 J10
+U 1 1 5D3ADC33
+P 950 5200
+F 0 "J10" H 868 5517 50  0000 C CNN
+F 1 "Conn_01x03" H 868 5426 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 950 5200 50  0001 C CNN
+F 3 "~" H 950 5200 50  0001 C CNN
+	1    950  5200
+	-1   0    0    -1  
+$EndComp
 Text Label 1700 5100 2    50   ~ 0
 HV
 Text Label 1700 5200 2    50   ~ 0
@@ -865,15 +876,4 @@ F 3 "~" H 7750 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 5850 2850
-$Comp
-L Connector_Generic:Conn_01x03 J10
-U 1 1 5D3ADC33
-P 950 5200
-F 0 "J10" H 868 5517 50  0000 C CNN
-F 1 "Conn_01x03" H 868 5426 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 950 5200 50  0001 C CNN
-F 3 "~" H 950 5200 50  0001 C CNN
-	1    950  5200
-	-1   0    0    -1  
-$EndComp
 $EndSCHEMATC

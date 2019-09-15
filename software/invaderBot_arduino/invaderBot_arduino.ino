@@ -1,3 +1,6 @@
+const int CELL_1 = A0;
+const int CELL_2 = A1;
+const int CELL_3 = A2;
 
 //              13, 11, 10, 9
 int pinPwm[] = { 0,  0,  0, 0};
@@ -69,9 +72,33 @@ void motorTask()
   Serial.println(" ");
 }
 
+void batteryTask()
+{
+  int c1, c2, c3;
+  c1 = analogRead(CELL_1)*5; // an approximation
+  c2 = analogRead(CELL_2)*5; // an approximation
+  c3 = analogRead(CELL_3)*5; // an approximation
+
+  c2 = c2*2-c1;
+  c3 = c3*3-c2-c1;
+
+  Serial.print("Battery: ");
+  Serial.print(c1);
+  Serial.print(" ");
+  Serial.print(c2);
+  Serial.print(" ");
+  Serial.println(c3);
+
+  if (true)
+  {
+    digitalWrite(6, HIGH);
+  }
+}
+
 void setup() {
   Serial.begin(9600);
-  // put your setup code here, to run once:
+  
+  // Motor Driver;
   pinMode(13, OUTPUT);
   pinMode(11, OUTPUT);
   pinMode(10, OUTPUT);
@@ -81,11 +108,17 @@ void setup() {
   delay(100);
   digitalWrite(8, HIGH);
   digitalWrite(7, HIGH);
+
+  // Battery Monitor;
+  pinMode(6, OUTPUT);
+  batteryTask();
 }
 
 void loop() {
   char firstChar;
   int value;
+
+  batteryTask();
   
   if (Serial.available())
   {
