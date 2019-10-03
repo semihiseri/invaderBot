@@ -75,18 +75,18 @@ void motorTask()
 void batteryTask()
 {
   int c1, c2, c3;
-  c1 = analogRead(CELL_1)*5; // an approximation
-  c2 = analogRead(CELL_2)*5; // an approximation
-  c3 = analogRead(CELL_3)*5; // an approximation
+  c1 = analogRead(CELL_1)*5; // an approximation. The range 0mV:5000mV corresponds to 0:1024 on default ADC resolution (10-bits)
+  c2 = analogRead(CELL_2)*5; // an approximation. So 5000/1024 is somewhat like 5. It is a simpler calculation and good enough!
+  c3 = analogRead(CELL_3)*5; // an approximation.
 
   c2 = c2*2-c1;
   c3 = c3*3-c2-c1;
 
-  Serial.print("Battery: ");
+  Serial.print("B=");
   Serial.print(c1);
-  Serial.print(" ");
+  Serial.print(",");
   Serial.print(c2);
-  Serial.print(" ");
+  Serial.print(",");
   Serial.println(c3);
 
   if (true)
@@ -137,6 +137,10 @@ void loop() {
     else if(firstChar == 'G')
     {
       motorTask();
+    }
+    else if(firstChar == 'B')
+    {
+      batteryTask();
     }
 
     switch (firstChar)
